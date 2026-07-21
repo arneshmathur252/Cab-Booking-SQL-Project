@@ -9,7 +9,7 @@ CREATE TABLE Customers (
     Email NVARCHAR(100) UNIQUE,
     RegistrationDate DATE DEFAULT GETDATE()
 );
-
+ 
 -- Drivers Table
 CREATE TABLE Drivers (
     DriverID INT PRIMARY KEY IDENTITY(1,1),
